@@ -24,6 +24,8 @@ header {
   width: 100%;
   border-top: 3px solid crimson;
   position: fixed;
+  height: 50px;
+  margin: 0px 0 15px 0;
 }
 ul {
   list-style: none;
@@ -45,7 +47,7 @@ li {
   text-decoration: none;
   list-style: none;
   padding: 0px 12px;
-  transition: ease-in-out 0.5s
+  transition: ease-in-out 0.3s
 }
 li.span::after{
   font-family: 'font awesome 5 free';
@@ -62,9 +64,16 @@ li.span::after{
 }
 li:hover {
   font-weight: bold;
-  color: #ffffff
+  color: #ffffff;
+  text-decoration-line: underline;
 }
 h2 {
   margin-top: 6px;
   cursor: pointer;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
 }

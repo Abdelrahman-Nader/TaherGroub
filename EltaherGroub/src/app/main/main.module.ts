@@ -8,13 +8,17 @@ import { MaterialModule } from '../material.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { MainComponent } from './main.component';
 import { LandingComponent } from './landing/landing.component';
+import { ProductsComponent } from './products/products.component';
+import { CallusComponent } from './callus/callus.component';
 
 
 @NgModule({
   declarations: [
     NavbarComponent,
     MainComponent,
-    LandingComponent
+    LandingComponent,
+    ProductsComponent,
+    CallusComponent
   ],
   imports: [
     CommonModule,
