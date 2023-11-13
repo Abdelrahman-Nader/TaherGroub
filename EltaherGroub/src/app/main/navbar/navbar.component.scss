@@ -1,3 +1,14 @@
+$main-color: #FFD60A;
+$second-color: #FFC300;
+$text-color: #001D3D;
+$text-second-color: #003566;
+$main-second-color: #629bd94f;
+$gradient-color: linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a);;
+
+
+
+
+
 // .header{
 //   background-image: linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a);
 // }
@@ -20,7 +31,7 @@ header {
   padding: 0px 100px;
   color: #2c3e50;
   /* color:aliceblue; */
-  background-image: linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a);
+  background-image: $gradient-color;
   width: 100%;
   border-top: 3px solid crimson;
   position: fixed;

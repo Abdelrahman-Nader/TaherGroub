@@ -10,6 +10,7 @@ import { MainComponent } from './main.component';
 import { LandingComponent } from './landing/landing.component';
 import { ProductsComponent } from './products/products.component';
 import { CallusComponent } from './callus/callus.component';
+import { ServiceComponent } from './service/service.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { CallusComponent } from './callus/callus.component';
     MainComponent,
     LandingComponent,
     ProductsComponent,
-    CallusComponent
+    CallusComponent,
+    ServiceComponent
   ],
   imports: [
     CommonModule,

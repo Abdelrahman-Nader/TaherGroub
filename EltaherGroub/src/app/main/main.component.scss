@@ -1,21 +1,35 @@
+$main-color: #FFD60A;
+$main-second-color: #629bd94f;
+$second-color: #FFC300;
+$text-color: #001D3D;
+$text-second-color: #003566;
+$gradient-color: linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a);;
+
+
+
 .landing{
   padding: 80px;
-  background-image: url(/src/assets/logo.png);
-  background-color: blueviolet;
+color: $second-color;
+  background-color: $text-color;
 }
 .container{
-background-color: brown;
+background-color: $text-color;
 height: 100%;
 }
 .navbar{
   max-height: 20px;
+  color: $second-color;
 
 }
 .products{
 padding: 80px;
-background-color:bisque;
+background-color:$gradient-color;
 }
 .callus{
 padding: 80px;
 background-color:rgb(187, 123, 45);
+}
+.services{
+  padding: 80px;
+background-color:rgb(129, 207, 252);
 }
