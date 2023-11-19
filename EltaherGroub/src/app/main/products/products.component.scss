@@ -3,6 +3,43 @@ $second-color: #FFC300;
 $text-color: #001D3D;
 $text-second-color: #003566;
 $main-second-color: #629bd94f;
-$gradient-color: linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a);;
+$gradient-color: linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a);
+$lighte-color:rgb(255, 255, 254);
 
 
+
+
+.main-product{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+color: $lighte-color;
+
+}
+.content{
+  width: auto;
+  // display: flex;
+  position: relative;
+}
+.box-card{
+  display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: rgb(255, 241, 241);
+    border: beige 1px solid;
+    border-radius: 20px;
+    box-shadow: beige 7px 6px 13px 4px ;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0 10px;
+    background: $text-color;
+}
+.imge{
+  width: 60px;
+    height: 120px;
+    border: aqua 2px solid;
+}
+.content{
+  width: 360px;
+    position: relative;
+}

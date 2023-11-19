@@ -5,4 +5,13 @@ $text-second-color: #003566;
 $main-second-color: #629bd94f;
 $gradient-color: linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a);;
 
-
+.example-card {
+  max-width: 400px;
+  margin: 0 10px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  // padding: 0 10px;
+  // margin: 0 10px;
+}

@@ -7,9 +7,9 @@ $gradient-color: linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a
 
 
 
-*{
-  padding: 20px;
-}
+// *{
+//   // padding: 20px;
+// }
 .home_search_container{
   // position: absolute;
   // top: -353px;
@@ -39,11 +39,12 @@ $gradient-color: linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a
 }
 .home_search_content{
   // width: 100%;
-    background: #FFFFFF;
+    background: #ffffff80;
     padding-top: 18px;
     padding-bottom: 18px;
     padding-left: 67px;
     padding-right: 83px;
+    border-radius: 20px;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -66,4 +67,15 @@ $gradient-color: linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: row;
+}
+.spichial{
+  // background: rgba(180, 143, 58, 0.217);
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+  background: $text-color;
+  color: #f2f5f6;
+}
+mat-form-field{
+  background: none;
 }
