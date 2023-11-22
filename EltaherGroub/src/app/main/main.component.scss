@@ -10,7 +10,8 @@ $gradient-color: linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a
 .landing{
   padding: 80px;
 color: $second-color;
-  background-color: $text-color;
+background-image: url(../assets/Family-of-Hearing-Aids.png);
+
 }
 .container{
 background-color: $text-color;

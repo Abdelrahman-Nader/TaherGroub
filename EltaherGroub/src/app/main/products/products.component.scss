@@ -22,22 +22,35 @@ color: $lighte-color;
   position: relative;
 }
 .box-card{
-  display: flex;
-    align-items: flex-start;
+  // display: flex;
+  //   align-items: flex-start;
+  //   justify-content: center;
+  //   color: rgb(0, 0, 0);
+  //   // border: beige 1px solid;
+  //   border-radius: 20px;
+  //   box-shadow: rgb(60, 60, 52) 7px 6px 13px 4px ;
+  //   flex-direction: column;
+  //   padding: 20px;
+  //   margin: 0 10px;
+    background: $lighte-color;
+
+    display: flex;
+    align-items: stretch;
     justify-content: center;
-    color: rgb(255, 241, 241);
-    border: beige 1px solid;
+    color: rgb(0, 0, 0);
     border-radius: 20px;
-    box-shadow: beige 7px 6px 13px 4px ;
-    flex-direction: column;
+    box-shadow: rgb(60, 60, 52) 7px 6px 13px 4px;
+    flex-direction: row;
     padding: 20px;
     margin: 0 10px;
-    background: $text-color;
+
+    align-content: space-around;
+    flex-wrap: wrap;
 }
 .imge{
   width: 60px;
-    height: 120px;
-    border: aqua 2px solid;
+    height: 60px;
+    // border: aqua 2px solid;
 }
 .content{
   width: 360px;
