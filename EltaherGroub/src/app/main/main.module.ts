@@ -11,6 +11,8 @@ import { LandingComponent } from './landing/landing.component';
 import { ProductsComponent } from './products/products.component';
 import { CallusComponent } from './callus/callus.component';
 import { ServiceComponent } from './service/service.component';
+import { SheardModule } from '../sheard/sheard.module';
+import { SheardRoutingModule } from '../sheard/sheard-routing.module';
 
 
 @NgModule({
@@ -28,7 +30,9 @@ import { ServiceComponent } from './service/service.component';
     RouterModule,
     RouterOutlet,
     MaterialModule,
-    BrowserModule
+    BrowserModule,
+    SheardModule,
+    SheardRoutingModule
 
   ]
 })
