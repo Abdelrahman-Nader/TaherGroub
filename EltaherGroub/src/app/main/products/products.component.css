@@ -1,28 +1,35 @@
-$main-color: #FFD60A;
+/* $main-color: #FFD60A;
 $second-color: #FFC300;
 $text-color: #001D3D;
 $text-second-color: #003566;
 $main-second-color: #629bd94f;
 $gradient-color: linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a);
 $lighte-color:rgb(255, 255, 254);
-
-
+ */
+ :root {
+  --main-color:#FFD60A;
+  --second-color:#FFC300;
+  --text-color:#001D3D;
+  --lighte-color:rgb(255, 255, 254);
+  --main-second-color: #629bd94f;
+  --gradient-color:linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a);
+}
 
 
 .main-product{
   display: flex;
   justify-content: center;
   align-items: center;
-color: $lighte-color;
+color: var(--lighte-color);
 
 }
 .content{
   width: auto;
-  // display: flex;
+  /* // display: flex; */
   position: relative;
 }
 .box-card{
-  // display: flex;
+  /* // display: flex;
   //   align-items: flex-start;
   //   justify-content: center;
   //   color: rgb(0, 0, 0);
@@ -31,8 +38,8 @@ color: $lighte-color;
   //   box-shadow: rgb(60, 60, 52) 7px 6px 13px 4px ;
   //   flex-direction: column;
   //   padding: 20px;
-  //   margin: 0 10px;
-    background: $lighte-color;
+  //   margin: 0 10px; */
+    /* background: $lighte-color; */
 
     display: flex;
     align-items: stretch;
@@ -50,7 +57,7 @@ color: $lighte-color;
 .imge{
   width: 100px;
     height: 100px;
-    // border: aqua 2px solid;
+    /* // border: aqua 2px solid; */
 }
 .content{
   width: 360px;

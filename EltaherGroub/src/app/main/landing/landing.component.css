@@ -1,32 +1,32 @@
-$main-color: #FFD60A;
-$second-color: #FFC300;
-$text-color: #001D3D;
-$text-second-color: #003566;
-$main-second-color: #629bd94f;
-$gradient-color: linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a);;
-$lighte-color:rgb(255, 255, 254);
+:root {
+  --main-color:#FFD60A;
+  --second-color:#FFC300;
+  --text-color:#001D3D;
+  --lighte-color:rgb(255, 255, 254);
+  --main-second-color: #629bd94f;
+  --gradient-color:linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a);
+}
 
 
-
-// *{
+/* // *{
 //   // padding: 20px;
-// }
+// } */
 .home_search_container{
-  // position: absolute;
+  /* // position: absolute;
   // top: -353px;
   // width: calc(100% + 122px);
-  // left: -61px;
+  // left: -61px; */
   padding-top: 47px;
   padding-left: 61px;
   padding-right: 61px;
   padding-bottom: 59px;
-  background: $gradient-color;
+  background: var(--gradient-color);
   border-radius: 12px;
 }
 .home_search_title{
   width: 247px;
     height: 55px;
-    background: $text-color;
+    background: var(--second-color);
     margin-left: auto;
     margin-right: auto;
     border-top-left-radius: 10px;
@@ -34,12 +34,12 @@ $lighte-color:rgb(255, 255, 254);
     line-height: 55px;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
-    color: $second-color;
+    color: var(--text-color);
     font-weight: 400;
     text-align: center;
 }
 .home_search_content{
-  // width: 100%;
+  /* // width: 100%; */
     background: #ffffff80;
     padding-top: 18px;
     padding-bottom: 18px;
@@ -62,7 +62,7 @@ $lighte-color:rgb(255, 255, 254);
   font-weight: 500 !important;
   color: #72728c !important;
 }
-// d-flex flex-lg-row flex-column align-items-start justify-content-lg-between justify-content-start
+/* // d-flex flex-lg-row flex-column align-items-start justify-content-lg-between justify-content-start */
 .search-form{
   display: flex;
   justify-content: space-between;
@@ -70,11 +70,11 @@ $lighte-color:rgb(255, 255, 254);
   flex-direction: row;
 }
 .spichial{
-  // background: rgba(180, 143, 58, 0.217);
+  /* // background: rgba(180, 143, 58, 0.217); */
   border-radius: 5px;
   padding: 0;
   margin: 0;
-  background: $text-color;
+  background: var(--lighte-color);
   color: #f2f5f6;
 }
 mat-form-field{

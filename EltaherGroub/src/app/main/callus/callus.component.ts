@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'callus',
   templateUrl: './callus.component.html',
-  styleUrls: ['./callus.component.scss']
+  styleUrls: ['./callus.component.css']
 })
 export class CallusComponent {
 

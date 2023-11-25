@@ -7,7 +7,7 @@ import { MainComponent } from './main/main.component';
 import { NavbarComponent } from './main/navbar/navbar.component';
 import { MainModule } from './main/main.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MaterialModule } from './material.module';
+// import { MaterialModule } from './material.module';
 import { RouterModule, RouterOutlet } from '@angular/router';
 
 @NgModule({
@@ -23,7 +23,7 @@ import { RouterModule, RouterOutlet } from '@angular/router';
     BrowserAnimationsModule,
     RouterModule,
     RouterOutlet,
-    MaterialModule,
+    // MaterialModule,
 
     BrowserAnimationsModule
   ],
