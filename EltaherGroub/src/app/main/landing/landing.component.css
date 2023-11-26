@@ -4,7 +4,7 @@
   --text-color:#001D3D;
   --lighte-color:rgb(255, 255, 254);
   --main-second-color: #629bd94f;
-  --gradient-color:linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a);
+  --gradient-color:-webkit-linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a);
 }
 
 
@@ -20,8 +20,16 @@
   padding-left: 61px;
   padding-right: 61px;
   padding-bottom: 59px;
-  background: var(--gradient-color);
+  background: -webkit-linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a);
+
   border-radius: 12px;
+}
+.golden{
+
+  background: -webkit-linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a);
+
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .home_search_title{
   width: 247px;

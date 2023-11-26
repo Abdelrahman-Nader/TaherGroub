@@ -29,36 +29,35 @@ color: var(--lighte-color);
   position: relative;
 }
 .box-card{
-  /* // display: flex;
-  //   align-items: flex-start;
-  //   justify-content: center;
-  //   color: rgb(0, 0, 0);
-  //   // border: beige 1px solid;
-  //   border-radius: 20px;
-  //   box-shadow: rgb(60, 60, 52) 7px 6px 13px 4px ;
-  //   flex-direction: column;
-  //   padding: 20px;
-  //   margin: 0 10px; */
-    /* background: $lighte-color; */
-
-    display: flex;
-    align-items: stretch;
+  display: flex;
+    align-items: center;
     justify-content: center;
     color: rgb(0, 0, 0);
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: rgb(60, 60, 52) 7px 6px 13px 4px;
     flex-direction: row;
     padding: 20px;
-    margin: 0 10px;
-
-    align-content: space-around;
+    margin: 20px 10px;
+    align-content: space-between;
     flex-wrap: wrap;
+    width: 300px;
+
 }
 .imge{
   width: 100px;
     height: 100px;
     /* // border: aqua 2px solid; */
+    transition: 0.3s;
 }
+.imge:hover{
+transform: scale(1.5);
+
+}
+.imge:focus{
+transform: translate(10px);
+
+}
+
 .content{
   width: 360px;
     position: relative;
