@@ -25,12 +25,16 @@
   border-radius: 12px;
 }
 .golden{
-
-  background: -webkit-linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a);
-
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+background: -webkit-linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+transition: 1.5s all ease-in-out;
 }
+ .golden:hover {
+   background: #FFD60A;
+  background-clip: text;
+ }
+
 .home_search_title{
   width: 247px;
     height: 55px;
@@ -88,3 +92,17 @@
 mat-form-field{
   background: none;
 }
+/* .photo::after {
+  content: '';
+  background: #001D3D;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.photo::before {
+content: '';
+  background: #001D3D;
+  display: block;
+  width: 20px;
+  height: 20px;
+} */

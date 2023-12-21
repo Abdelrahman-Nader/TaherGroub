@@ -21,10 +21,10 @@ $lighte-color:rgb(198, 198, 198); */
 /* // background-image: url(../../assets/Family-of-Hearing-Aids.png); */
 
 }
-.container{
+/* .container{
 background-color: var(--lighte-color);
 height: 100%;
-}
+} */
 .navbar{
   max-height: 20px;
   color: var(--second-color);
