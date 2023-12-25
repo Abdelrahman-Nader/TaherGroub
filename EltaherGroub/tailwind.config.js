@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{html,ts}",
+    "./src/**/*.{html,ts}"
   ],
   theme: {
     extend: {
@@ -12,7 +12,7 @@ module.exports = {
       'secondcolor': '#FFC300',
       'textcolor2':'#001D3D',
       'lightecolor':'rgb(255, 255, 254)',
-      'mainsecondcolor':'#629bd9f7',
+      'mainsecondcolor':'#629bd9',
       // 'gradientcolor':'linear-gradient(150deg, #5b4516,#b4903a,#fffea6,#b4903a,#b4903a,#b4903a,#fffea6,#b4903a)',
 
 

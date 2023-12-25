@@ -32,7 +32,7 @@ color: var(--lighte-color);
   display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(0, 0, 0);
+
     border-radius: 10px;
     box-shadow: rgb(60, 60, 52) 7px 6px 13px 4px;
     flex-direction: row;
@@ -41,6 +41,7 @@ color: var(--lighte-color);
     align-content: space-between;
     flex-wrap: wrap;
     width: 300px;
+
 
 }
 .imge{

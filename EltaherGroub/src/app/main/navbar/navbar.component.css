@@ -40,7 +40,7 @@ header {
   padding: 0px 100px;
   /* color: $lighte-color; */
   /* color:aliceblue; */
-  background: var(--gradient-color);
+  /* background: var(--gradient-color); */
   width: 100%;
   border-top: 3px solid crimson;
   position: fixed;

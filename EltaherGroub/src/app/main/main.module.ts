@@ -34,6 +34,9 @@ import { SheardRoutingModule } from '../sheard/sheard-routing.module';
     SheardModule,
     SheardRoutingModule
 
+  ],
+  exports:[
+    NavbarComponent,
   ]
 })
 export class MainModule { }

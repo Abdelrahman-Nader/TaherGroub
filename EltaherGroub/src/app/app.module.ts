@@ -1,3 +1,4 @@
+import { SheardModule } from './sheard/sheard.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -23,6 +24,8 @@ import { RouterModule, RouterOutlet } from '@angular/router';
     BrowserAnimationsModule,
     RouterModule,
     RouterOutlet,
+    SheardModule,
+    MainModule,
     // MaterialModule,
 
     BrowserAnimationsModule
